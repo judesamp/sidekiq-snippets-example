@@ -1,0 +1,6 @@
+---
+production:
+  :concurrency: 5
+:queues:
+  - default
+  - [high, 2]
