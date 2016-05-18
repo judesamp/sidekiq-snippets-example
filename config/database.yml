@@ -83,4 +83,4 @@ production:
   database: snippets_production
   username: snippets
   password: <%= ENV['SNIPPETS_DATABASE_PASSWORD'] %>
-  pool: 24
+  pool: 9
